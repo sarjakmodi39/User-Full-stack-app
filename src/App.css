@@ -24,6 +24,20 @@
   color: white;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin: 10px;
+  padding: 5px;
+  width: fit-content;
+  min-width: 150px;
+  border-radius: 5px;
+  background-color: darkgray;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +49,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.button {
+  margin-left: 40px;
 }
